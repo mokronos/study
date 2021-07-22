@@ -1,5 +1,7 @@
 Website about various engineering topics, mostly information technology.
 
-- learn depth first
-- rough first then make pretty
+Plan:
+
+- depth first learning
+- frequent iteration
 - summarize everything in your own words
