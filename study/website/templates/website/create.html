@@ -1,0 +1,14 @@
+{% extends "website/layout.html" %}
+
+{% block body %}
+<a href="{% url 'home' %}">Go back to HOME</a>
+<br>
+<h1>Create new Post</h1>
+<form action="{% url 'create' %}" method="post">
+  {% csrf_token %}
+  {{ form }} 
+  <input type="submit">
+</form>
+
+{% endblock %}
+
