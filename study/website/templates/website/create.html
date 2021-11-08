@@ -4,10 +4,11 @@
 <a href="{% url 'home' %}">Go back to HOME</a>
 <br>
 <h1>Create new Post</h1>
-<form action="{% url 'create' %}" method="post">
+<form method="post">
   {% csrf_token %}
-  {{ form }} 
-  <input type="submit">
+
+  {{ form.as_p }} 
+  <button>Finish</button>
 </form>
 
 {% endblock %}

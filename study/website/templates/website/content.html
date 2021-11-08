@@ -1,0 +1,9 @@
+{% extends "website/layout.html" %}
+
+{% block body %}
+  <a href="{% url "home" %}">HOME</a>
+  <h1>{{ post.title }}</h1>
+  {{ post.content |safe}}
+
+{% endblock %}
+

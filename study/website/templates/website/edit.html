@@ -1,0 +1,24 @@
+{% extends "website/layout.html" %}
+
+{% block body %}
+  <a href="{% url 'home' %}">Go back to HOME</a>
+  <br>
+  <div class="left">
+    <h1>Edit Post</h1>
+    <form method="POST">
+      {% csrf_token %}
+
+      {{ form.as_p }} 
+      <button>Finish</button>
+    </form>
+  </div>
+  <div class="right">
+    <h1>Rendered Post</h1>
+    <br>
+    <h1 id="rendered_title">{{ post.title }}</h1>
+    <div id="rendered_content">
+      {{ post.content |safe }}
+    </div>
+  </div>
+{% endblock %}
+

@@ -1,3 +1,8 @@
-#big_text_input {
-  height: 300px;
+.left {
+  width: 50%;
+  float: left;
+}
+
+.right {
+  overflow: hidden;
 }

@@ -2,7 +2,13 @@
 
 {% block body %}
 <h1>HOME</h1>
-<p>This is the starting page.</p>
+<p>Here are some posts</p>
 <a href="{% url 'create' %}">Create New Page</a>
+
+{% for post in posts %}
+  <h2>{{ post.title }}</h2>
+  <a href="{{ post.title }}/">view</a>
+  <a href="{{ post.title }}/edit">edit</a>  <a href="{{ post.title }}/delete">delete</a>
+{% endfor %}
 {% endblock %}
 

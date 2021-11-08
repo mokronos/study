@@ -2,11 +2,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
     <title>Title</title>
-    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
     <script rel="javascript" src="{% static 'script.js' %}"></script>
+    <link rel="shortcut icon" href="#">
   </head>
-  <body>
+  <body onload="script();">
     {% block body %}
     {% endblock %}
   </body>
