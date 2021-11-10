@@ -2,8 +2,9 @@
 
 {% block body %}
   <a href="{% url "home" %}">HOME</a>
+  <br>
+  <a href="{% url "edit" post.title  %}">edit</a>  <a href="{% url "delete" post.title %}">delete</a>
   <h1>{{ post.title }}</h1>
-  {{ post.content |safe}}
-
+  {{ post.content | safe}}
 {% endblock %}
 

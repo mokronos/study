@@ -1,9 +1,12 @@
 from django.shortcuts import render,redirect
+from django.core.exceptions import ObjectDoesNotExist
 
 from .models import Post
 from .forms import PostForm
 import reversion
 from reversion.views import create_revision
+
+from .helper import render_html
 
 # Create your views here.
 
@@ -12,7 +15,7 @@ def home(request):
     return render(request, "website/home.html", {"posts": posts})
 
 @create_revision()
-def create(request):
+def create(request, post_title = None):
 
 
     if request.method == "POST":
@@ -40,10 +43,12 @@ def edit(request, post_title):
         form = PostForm(request.POST, instance=post)
 
         if form.is_valid():
-            form.save()
-            reversion.set_comment("changed content/title")
 
-            return redirect("home")
+            if form.has_changed():
+                form.save()
+                reversion.set_comment("changed content/title")
+
+            return redirect("view", post_title = post.title)
     else:
         form = PostForm(initial={"title":post.title,"content":post.content})
 
@@ -56,7 +61,12 @@ def delete(request, post_title):
     return redirect("home")
 
 def view(request, post_title):
-    post = Post.objects.get(title = post_title)
+
+    try:
+        post = Post.objects.get(title = post_title)
+    except ObjectDoesNotExist:
+        return redirect("create", post_title = post_title)
+
+    post.content = render_html(post.content)
 
     return render(request, "website/content.html", {"post": post})
-
