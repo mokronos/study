@@ -25,7 +25,7 @@ SECRET_KEY = '9fj-w0ng*iw9$z*$(3+eok-+j1n(!5fxzx2)f%m7lds+81q=be'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["192.168.178.66"]
 
 
 # Application definition
@@ -125,3 +125,6 @@ STATIC_URL = '/static/'
 
 # reversion_compare settings
 ADD_REVERSION_ADMIN=True
+
+# primary key
+DEFAULT_AUTO_FIELD='django.db.models.AutoField'
