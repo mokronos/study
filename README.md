@@ -1,6 +1,6 @@
-Website about various engineering topics, mostly information technology.
+# Website about various engineering topics, mostly information technology.
 
-Plan:
+## Plan:
 
 - depth first learning
 - frequent iteration
