@@ -1,0 +1,66 @@
+    INFO: 2021-11-16 03:42:38,315:               log.py:   20: Logging to C:\Users\games\code\study\study\content\GNSS\gold-codes\mdpdf.log
+   DEBUG: 2021-11-16 03:42:38,316:               cli.py:  103: notes.md
+    INFO: 2021-11-16 03:42:38,316:         converter.py:   14: notes.md
+   DEBUG: 2021-11-16 03:42:38,321:      pdf_renderer.py:  470: printSegment: GNSS Rechnerübung 2
+   DEBUG: 2021-11-16 03:42:38,325:      pdf_renderer.py:  470: printSegment: a.
+   DEBUG: 2021-11-16 03:42:38,328:      pdf_renderer.py:  235: C:\Users\games\code\study\study\content\GNSS\gold-codes\a_1.png, 640, 480
+   DEBUG: 2021-11-16 03:42:38,340:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2021-11-16 03:42:38,342:      pdf_renderer.py:  235: C:\Users\games\code\study\study\content\GNSS\gold-codes\a_2.png, 640, 480
+   DEBUG: 2021-11-16 03:42:38,353:      pdf_renderer.py:  470: printSegment: b.
+   DEBUG: 2021-11-16 03:42:38,354:      pdf_renderer.py:  235: C:\Users\games\code\study\study\content\GNSS\gold-codes\b.png, 1920, 977
+   DEBUG: 2021-11-16 03:42:38,425:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2021-11-16 03:42:38,425:      pdf_renderer.py:  470: printSegment: Der Vektor ist gleich dem Vektor aus der vorhergehenden Aufgabe, wie in dem Plot zu erkennen(Difference=0).
+   DEBUG: 2021-11-16 03:42:38,426:      pdf_renderer.py:  470: printSegment: c/d.
+   DEBUG: 2021-11-16 03:42:38,427:      pdf_renderer.py:  235: C:\Users\games\code\study\study\content\GNSS\gold-codes\c_d.png, 300, 50
+   DEBUG: 2021-11-16 03:42:38,427:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2021-11-16 03:42:38,428:      pdf_renderer.py:  470: printSegment: Korrekt
+   DEBUG: 2021-11-16 03:42:38,428:      pdf_renderer.py:  470: printSegment: !
+   DEBUG: 2021-11-16 03:42:38,428:      pdf_renderer.py:  470: printSegment: e/f.
+   DEBUG: 2021-11-16 03:42:38,429:      pdf_renderer.py:  235: C:\Users\games\code\study\study\content\GNSS\gold-codes\e_f.png, 640, 480
+   DEBUG: 2021-11-16 03:42:38,442:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2021-11-16 03:42:38,442:      pdf_renderer.py:  470: printSegment: Die Spitze ist wie erwartet um 200 chips zur AKF von PRN 19 verschoben.
+   DEBUG: 2021-11-16 03:42:38,443:      pdf_renderer.py:  470: printSegment: g.
+   DEBUG: 2021-11-16 03:42:38,444:      pdf_renderer.py:  235: C:\Users\games\code\study\study\content\GNSS\gold-codes\g.png, 640, 480
+   DEBUG: 2021-11-16 03:42:38,454:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2021-11-16 03:42:38,455:      pdf_renderer.py:  470: printSegment: Die Kreuzkorrelationsfunktion zeigt die Ähnlichkeiten von PRN 19 und PRN 25, hier ist zu erkennen, dass sich die
+   DEBUG: 2021-11-16 03:42:38,455:      pdf_renderer.py:  470: printSegment: sequenzen nicht wiederholen, da keine Spitzen auftreten. Die AKF (aus e.) zeigt die Ähnlichkeiten mit sich selbst,
+   DEBUG: 2021-11-16 03:42:38,456:      pdf_renderer.py:  470: printSegment: daher die Spitzen bei 1023(Sequenz wiederholt sich).
+   DEBUG: 2021-11-16 03:42:38,456:      pdf_renderer.py:  470: printSegment: h.
+   DEBUG: 2021-11-16 03:42:38,457:      pdf_renderer.py:  235: C:\Users\games\code\study\study\content\GNSS\gold-codes\h.png, 640, 480
+   DEBUG: 2021-11-16 03:42:38,468:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2021-11-16 03:42:38,468:      pdf_renderer.py:  470: printSegment: Die Kreuzkorrelationsfunktion zeigt die Ähnlichkeiten von PRN 19 und PRN 5, hier ist zu erkennen, dass sich die
+   DEBUG: 2021-11-16 03:42:38,469:      pdf_renderer.py:  470: printSegment: sequenzen nicht wiederholen, da keine Spitzen auftreten. Die AKF (aus e.) zeigt die Ähnlichkeiten mit sich selbst,
+   DEBUG: 2021-11-16 03:42:38,469:      pdf_renderer.py:  470: printSegment: daher die Spitzen bei 1023(Sequenz wiederholt sich).
+   DEBUG: 2021-11-16 03:42:38,469:      pdf_renderer.py:  470: printSegment: i.
+   DEBUG: 2021-11-16 03:42:38,470:      pdf_renderer.py:  235: C:\Users\games\code\study\study\content\GNSS\gold-codes\i.png, 640, 480
+   DEBUG: 2021-11-16 03:42:38,481:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2021-11-16 03:42:38,481:      pdf_renderer.py:  470: printSegment: Die Spitzen sind wie erwartet um 350 Chips von den Spitzen der AKF von PRN 19 verschoben, da PRN 19 um 350
+   DEBUG: 2021-11-16 03:42:38,482:      pdf_renderer.py:  470: printSegment: Chips verzögert wurde. Der Einfluss von PRN 5 und PRN 25 ist schwer aus diesen Plots herauszulesen.
+   DEBUG: 2021-11-16 03:42:38,482:      pdf_renderer.py:  470: printSegment: k/l.
+   DEBUG: 2021-11-16 03:42:38,483:      pdf_renderer.py:  235: C:\Users\games\code\study\study\content\GNSS\gold-codes\k_1.png, 640, 480
+   DEBUG: 2021-11-16 03:42:38,494:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2021-11-16 03:42:38,495:      pdf_renderer.py:  235: C:\Users\games\code\study\study\content\GNSS\gold-codes\k_2.png, 640, 480
+   DEBUG: 2021-11-16 03:42:38,507:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2021-11-16 03:42:38,507:      pdf_renderer.py:  470: printSegment: Es ist immer noch eine Spitze bei 350(650) zu erkennen. Der Gold-Code zeigt hier seine Stärke.
+   DEBUG: 2021-11-16 03:42:38,508:      pdf_renderer.py:  470: printSegment: Selbst nach sign() sind die Spitzen noch erkennbar, jedoch deutlich schwächer.
+   DEBUG: 2021-11-16 03:42:38,508:      pdf_renderer.py:  470: printSegment: SNR Correlation Signal
+   DEBUG: 2021-11-16 03:42:38,508:      pdf_renderer.py:  470: printSegment: _
+   DEBUG: 2021-11-16 03:42:38,509:      pdf_renderer.py:  470: printSegment: 2 in dB:  
+   DEBUG: 2021-11-16 03:42:38,510:      pdf_renderer.py:  470: printSegment: 15.360882803307023
+   DEBUG: 2021-11-16 03:42:38,512:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2021-11-16 03:42:38,512:      pdf_renderer.py:  470: printSegment: SNR Correlation sign(Signal
+   DEBUG: 2021-11-16 03:42:38,512:      pdf_renderer.py:  470: printSegment: _
+   DEBUG: 2021-11-16 03:42:38,512:      pdf_renderer.py:  470: printSegment: 2) in dB:  
+   DEBUG: 2021-11-16 03:42:38,513:      pdf_renderer.py:  470: printSegment: 13.10961409167924
+   DEBUG: 2021-11-16 03:42:38,513:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2021-11-16 03:42:38,513:      pdf_renderer.py:  470: printSegment: Die SNR hat sich um nur ~2 dB verschlechtert. Die Korrelation kann also bei Empfang des Signals im Digitalen
+   DEBUG: 2021-11-16 03:42:38,514:      pdf_renderer.py:  470: printSegment: nach der A/D Umsetzung berechnet werden.
+   DEBUG: 2021-11-16 03:42:38,514:      pdf_renderer.py:   53: 0, [1, 'GNSS Rechnerübung 2', 1, 68.0]
+   DEBUG: 2021-11-16 03:42:38,514:      pdf_renderer.py:   53: 1, [2, None, 1, 106.0]
+   DEBUG: 2021-11-16 03:42:38,514:      pdf_renderer.py:   53: 2, [2, None, 2, 449.8]
+   DEBUG: 2021-11-16 03:42:38,514:      pdf_renderer.py:   53: 3, [2, None, 3, 348.94375]
+   DEBUG: 2021-11-16 03:42:38,514:      pdf_renderer.py:   53: 4, [2, None, 3, 462.54375000000005]
+   DEBUG: 2021-11-16 03:42:38,514:      pdf_renderer.py:   53: 5, [2, None, 4, 461.8]
+   DEBUG: 2021-11-16 03:42:38,514:      pdf_renderer.py:   53: 6, [2, None, 5, 485.8]
+   DEBUG: 2021-11-16 03:42:38,514:      pdf_renderer.py:   53: 7, [2, None, 6, 473.8]
+   DEBUG: 2021-11-16 03:42:38,514:      pdf_renderer.py:   53: 8, [2, None, 7, 473.8]
